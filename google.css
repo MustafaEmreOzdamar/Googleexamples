@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    flex-direction: column;
+    margin-bottom: 20px; 
+    width: 300px; 
+    height: 100px; 
+}
+
+#giris {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 150%; 
+    border-radius: 15px; 
+    border: 1px solid #ccc; 
+}
+
+.button_settings {
+    display: flex;
+    justify-content: space-between;
+    width: 130%; 
+}
+
+#buton1, #buton2 {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 5px;
+    flex: 1; 
+    border-radius: 15px; 
+    border: 1px solid #ccc;
+}
